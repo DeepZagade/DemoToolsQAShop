@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-26T17:03:40 IST" name="Default suite" finished-at="2023-04-26T17:04:34 IST" duration-ms="53876">
+    <groups>
+    </groups>
+    <test started-at="2023-04-26T17:03:40 IST" name="Default test" finished-at="2023-04-26T17:04:34 IST" duration-ms="53876">
+      <class name="test.DemoQAShop.SmokeTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:03:39 IST" name="beforeSuite" finished-at="2023-04-26T17:03:40 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:03:40 IST" name="beforeClass" finished-at="2023-04-26T17:03:59 IST" duration-ms="18235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifysearching()[pri:0, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:03:59 IST" name="verifysearching" finished-at="2023-04-26T17:04:06 IST" duration-ms="6959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearching -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:04:06 IST" name="afterMethod" finished-at="2023-04-26T17:04:06 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifysearching status=SUCCESS method=SmokeTest.verifysearching()[pri:0, instance:test.DemoQAShop.SmokeTest@11392934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyAddToCart()[pri:1, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:04:06 IST" name="verifyAddToCart" finished-at="2023-04-26T17:04:16 IST" duration-ms="10213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:04:16 IST" name="afterMethod" finished-at="2023-04-26T17:04:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCart status=SUCCESS method=SmokeTest.verifyAddToCart()[pri:1, instance:test.DemoQAShop.SmokeTest@11392934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyOrderPlacement()[pri:2, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:04:16 IST" name="verifyOrderPlacement" finished-at="2023-04-26T17:04:33 IST" duration-ms="16682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderPlacement -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:04:33 IST" name="afterMethod" finished-at="2023-04-26T17:04:33 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrderPlacement status=SUCCESS method=SmokeTest.verifyOrderPlacement()[pri:2, instance:test.DemoQAShop.SmokeTest@11392934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:04:33 IST" name="afterclass" finished-at="2023-04-26T17:04:34 IST" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="afterSuiteMethod()[pri:0, instance:test.DemoQAShop.SmokeTest@11392934]" started-at="2023-04-26T17:04:34 IST" name="afterSuiteMethod" finished-at="2023-04-26T17:04:38 IST" duration-ms="3617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- test.DemoQAShop.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
