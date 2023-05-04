@@ -15,7 +15,7 @@ public class PropertyHelper {
 			fis = new FileInputStream(file);
 			propObj.load(fis);
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 
 	}

@@ -30,6 +30,8 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class SmokeTest {
+	//https://github.com/DeepZagade
+	
 	WebDriver driver;
 	File f;
 	ExtentReports extent ;
@@ -37,7 +39,7 @@ public class SmokeTest {
 
 	@BeforeSuite
 	public void beforeSuite() {
-		f = new File(System.getProperty("user.dir") + "\\src\\main\\resource\\ExtentReport" + "extent.html");
+		f = new File(System.getProperty("user.dir") + "\\src\\main\\resource\\ExtentReport\\" + "extent.html");
 		ExtentSparkReporter spark = new ExtentSparkReporter(f);
 		extent = new ExtentReports();
 		extent.attachReporter(spark);
